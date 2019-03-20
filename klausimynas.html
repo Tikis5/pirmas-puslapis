@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Klausimynas</title>
+    <link rel="stylesheet" href="manocss/klausimynas.css">
+</head>
+<body>
+<a href="/" class="meniu">Pagrindinis katalogas</a>
+<form action="saugoti.php" method="get">
+<h2>1. Kokie tavo batai?</h2>
+<label for="pirmas"></label>
+<input type="radio" id="pirmas">Sandalai
+<br>
+<label for="antras"></label>
+<input type="radio" id="antras">Kaliosai
+<br>
+<label for="trecias"></label>
+<input type="radio" id="trecias">Kedai
+<hr>
+
+<h2>2. Kokia masina vairuoji?</h2>
+<label for="ats2"></label>
+<input name="atsakymas" type="text" id="ats2" placeholder="Atsakymas">
+<hr>
+
+<h2>3. Kokie megstamiausi uzsiemimai?</h2>
+<label for="ats3"></label>
+<textarea name="message" rows="10" cols="30" id="ats3" placeholder="Atsakymas"></textarea>
+<hr>
+
+<h2>4. Kurie metu laikai jums patinka?</h2>
+<label for="ziema">Ziema</label>
+<input type="checkbox" id="ziema"/>
+
+<br>
+<label for="pavasaris">Pavasaris</label>
+<input type="checkbox" id="pavasaris"/>
+<br>
+<label for="vasara">Vasara</label>
+<input type="checkbox" id="vasara" />
+<br>
+<label for="ruduo">Ruduo</label>
+<input type="checkbox" id="ruduo" />
+<br>
+
+<input type="submit" value="Saugoti" />
+    <input type="reset">
+</form>
+</body>
+</html>

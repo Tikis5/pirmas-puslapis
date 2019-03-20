@@ -1,0 +1,41 @@
+.tabai{
+    display: flex;
+}
+
+.tabai a{
+    padding: 10px;
+    border: 1px solid red;
+    margin: 0 10px;
+}
+.sheets > div{
+    display: none;
+    height: 85%;
+    background: gray;
+    padding: 150px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+div#other.sheet{
+    background: pink;
+    padding: 20px 20px;
+    border: 1px solid red;
+}
+div#settings.sheet{
+    background: aqua;
+    padding: 20px 20px;
+    border: 1px solid red;
+}
+div#archive.sheet{
+    background: coral;
+    padding: 20px 20px;
+    border: 1px solid red;
+}
+div#home.sheet{
+    background: aliceblue;
+    padding: 20px 20px;
+    border: 1px solid red;
+}
+
+#home{
+    display: block;
+}

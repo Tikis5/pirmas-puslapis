@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Ijungti/isjungti lempute</h1>
+
+    <img src="img/lemputeOff.jpg" style="width:250px;height:250px;" id="lempute" onclick="lemputes_busena()" alt="nerastas paveikslelis">
+    <div id="kvadratas" style="background-color: red" onclick="keistiSpalva()">Kvadratas</div>
+
+    <script>
+        var kv = document.getElementById("kvadratas");
+        var arspalva = true;
+        function keistiSpalva(){
+            if (arspalva) {
+                kv.style.backgroundColor = "green";
+            }
+            else {
+                kv.style.backgroundColor = "red";
+            }
+            arspalva = !arspalva;
+        }
+
+        var x=document.getElementById("lempute");
+        var arIjungta = false;
+
+        function lemputes_busena() {
+
+            if (arIjungta){
+                x.src="img/lemputeOff.jpg";
+            }
+            else {
+                x.src="img/lemputeOn.jpg";
+            }
+            arIjungta =! arIjungta;
+        }
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktai</title>
+</head>
+<body>
+<h1>Kontaktai</h1>
+<a href="/img/ApieMane.html" class="meniu">Apie mane v2</a>
+<a href="/Portfolio.html" class="meniu">Portfolio</a>
+<a href="/" class="meniu">Pagrindinis katalogas</a>
+<p>Tel nr.: 869754654</p>
+<p><b>Kaunas</b></p>
+
+<form>
+<input action="saugoti.php" method="get">
+<label for="fn">Vardas</label>
+<input name="firstname" type="text" id="fn" placeholder="Vardas">
+<hr>
+    <label for="ln">Pavarde</label>
+    <input name="lastname" type="text" id="ln" value="Pavardenis">
+    <hr>
+<label for="masina">Automobilis</label>
+<select name="cars" id="masina">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    </select>
+    <hr>
+    <label for="zinute">Tavo zinute man</label>
+    <br>
+    <textarea name="message" rows="10" cols="30" id="zinute">
+        Labas vakaras visiems.
+    </textarea>
+    <hr>
+    <button type="button" onclick="alert('labas ir tau.')">Click me!</button>
+    <input type="submit" value="saugoti" />
+    <input type="reset">
+    <label for="pw">Slaptazodis</label>
+    <input type="password" id="pw">
+    <hr>
+    <label for="pirmas">Pirmas pasirinkimas</label>
+    <input type="checkbox" id="pirmas"/>
+
+    <br>
+    <label for="antras">Antras pasirinkimas</label>
+    <input type="checkbox" id="antras"/>
+    <br>
+    <label for="trecias">Trecias pasirinkimas</label>
+    <input type="checkbox" id="trecias" />
+</form>
+
+</body>
+</html>
